@@ -1,0 +1,405 @@
+.logo1
+{
+    width: 80px;
+    height: 80px;
+}
+
+nav
+{
+    box-shadow: -2px 1px 5px 0px rgb(0 0 0 / 35%);
+}
+
+.arplan
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar
+{
+    margin: 0;
+    padding: 0;
+}
+
+.bouts
+{
+    border-color: rgb(19, 83, 83);
+}
+
+
+.ecouter
+{
+    position: relative;
+    width: 19.9%;
+    padding: 10px;
+    font-size: large;
+    top: 40%;
+    left: 52.5%;
+    transform: translate(-50%,-50%);
+}
+
+.ecouter button
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    opacity: 0.6;
+    padding: 6px;
+    transition: 0.4s ease-in;
+}
+
+.ecouter button:hover
+{
+    border-color: rgb(0, 255, 255);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    color: rgb(148, 63, 63);
+}
+
+
+.texte_first .text1
+{
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: center; color: whitesmoke;
+    font-family: cursive,Arial, sans-serif
+}
+
+.texte_first .text2{
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.imag_arr
+{
+    background-image: url("../IMAGES/image_fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89vh;
+}
+
+.titrech
+{
+    text-align: left; 
+    margin-bottom : 10px; 
+    margin-top: -50px; 
+    margin-left:20px;
+    font-family: cursive;
+}
+
+.part a img {
+    margin-top: -3px;
+    width: 30px;
+  }
+
+
+.ecouter a
+{
+    text-decoration: none;
+    color: rgb(10, 55, 61);
+}
+
+.ecouter a:hover
+{
+    text-decoration: none;
+}
+
+.nav-link
+{
+    color: black;
+}
+
+
+.nav-link:hover
+{
+    color: rgb(8, 66, 52);
+    
+}
+
+.bouts:hover
+{
+    background-color: rgb(19, 83, 83);
+    color: white;
+}
+
+.bouts
+{
+    color: rgb(19, 83, 83);
+    border-radius: 50px;
+}
+
+#music
+{
+    width: 100%;
+    padding-top: 50px;
+    background-color: rgba(0, 38, 58, 0.801);
+    color: white;
+    margin-bottom: 0px;
+}
+
+#music .davtech
+{
+    background-color: rgb(1, 24, 36);
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.liste_music_motivational
+{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+section
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.header_section
+{
+    font-size: small;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 48, 48);
+}
+
+
+/*Style css music player*/
+
+.pag
+{
+    width: 30%;
+    margin: auto;
+    margin-right: 10%;
+}
+.container2
+{
+    background: rgb(255, 255, 255);
+}
+
+.container2 .heading
+{
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+}
+
+.container2 .music-container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+.container2 .music-container .box{
+    height: 15rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.329);
+    overflow: hidden;
+    margin: 2rem;
+}
+
+.container2 .music-container .box .image{
+    height: 100%;
+    width: 25%;
+}
+
+.container2 .music-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container2 .music-container .box .music{
+    width: 75%;
+}
+
+.container2 .music-container .box .music audio{
+    width: 100%;
+    outline: none;
+}
+
+@media screen and (max-width:1084px) {
+
+    .ecouter
+    {
+        width: 44%;
+        margin: auto;
+        left: 33%;
+        transform: translate(-50%,-50%);
+
+    }
+
+}
+
+
+@media screen and (max-width:830px) {
+    .texte_first .text1
+    {
+        font-size: 80px;
+    }
+
+    .texte_first .text2 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:740px) {
+
+    .texte_first .text1
+    {
+        font-size: 70px;
+    }
+
+    .texte_first .text2 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:649px) {
+    .ecouter
+    {
+        width: 44%;
+        margin: auto;
+        left: 28%;
+        transform: translate(-50%,-50%);
+    }
+
+    .texte_first .text1
+    {
+        font-size: 60px;
+    }
+
+    .texte_first .text2 {
+        font-size: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .container2 .music-container .box{
+        height: 27rem;
+        width: 90%;
+        flex-flow: column;
+    }
+
+    .container2 .music-container .box .image{
+        height: 70%;
+        width: 100%;
+    }
+
+    .container2 .music-container .box .music
+    {
+        margin-top: 55px;
+        height: 20%;
+        width: 100%;
+    }
+
+    .ecouter
+    {
+        width: 44%;
+        margin: auto;
+        left: 23%;
+        transform: translate(-50%,-50%);
+    }
+
+    .ecouter button
+    {
+        padding: 6px;
+    }
+
+
+    .texte_first .text1
+    {
+        font-size: 53px;
+    }
+
+    .texte_first .text2 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .ecouter
+    {
+        width: 48%;
+        margin: auto;
+        left: 26%;
+        transform: translate(-50%,-50%);
+    }
+
+}
+
+
+@media screen and (max-width:495px) {
+    .texte_first .text1
+    {
+        font-size: 45px;
+    }
+
+    .texte_first .text2 {
+        font-size: 35px;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .ecouter
+    {
+        position: relative;
+        width: 54%;
+        padding: 10px;
+        font-size: medium;
+        top: 55%;
+        left: 52%;
+        transform: translate(-50%,-50%);
+    }
+    .texte_first .text1
+    {
+        font-size: 43px;
+        font-weight: bolder;
+        text-align: center; color: whitesmoke;
+        font-family: cursive,Arial, sans-serif
+    }
+
+    .texte_first .text2 {
+        font-size: 44px;
+        font-weight: bolder;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .part a img {
+        margin-top: -1px;
+        width: 30px;
+      }
+
+}
+
+

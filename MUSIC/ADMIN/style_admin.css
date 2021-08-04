@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+.logo1
+{
+    width: 80px;
+    height: 80px;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+nav
+{
+    box-shadow: -2px 1px 5px 0px rgb(0 0 0 / 35%);
+}
+
+.arplan
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar
+{
+    margin: 0;
+    padding: 0;
+}
+
+.user
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.d-flex
+{
+    width: 25%;
+    margin-left: 85%;
+
+}
+
+.d-flex p
+{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.container
+{
+    margin-top: 30px;
+}
+
+.container h3
+{
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.container .row h4{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.527);
+}
+
+.tabp
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.tab
+{
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+    border-radius: 10px ;
+    background-color: rgba(6, 164, 212, 0.315);
+    /*box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.281);*/
+}
+
+@media screen and (max-width: 991px) {
+    .d-flex
+    {
+        width: 20%;
+        margin-top: -70px;
+        margin-left: 80%;
+        margin-bottom: 10px;
+
+    }
+
+    .d-flex p
+    {
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    
+}
+
+@media  screen and (max-width: 700px) {
+    .d-flex
+    {
+        margin-left: 75%;
+
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .d-flex
+    {
+        margin-left: 70%;
+
+    }
+}
+
+.f1
+{
+    padding: 15px;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.281);
+}
